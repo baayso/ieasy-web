@@ -47,9 +47,9 @@ export default {
   primaryColor: '#1890FF',
   layout: 'sidemenu',
   contentWidth: 'Fluid',
-  fixedHeader: false,
+  fixedHeader: true,
   autoHideHeader: false,
-  fixSiderbar: false,
+  fixSiderbar: true,
   colorWeak: false,
   menu: {
     locale: true,
@@ -57,4 +57,5 @@ export default {
   title: 'Ant Design Pro',
   pwa: false,
   iconfontUrl: '',
+  collapse: true,
 } as DefaultSettings;
